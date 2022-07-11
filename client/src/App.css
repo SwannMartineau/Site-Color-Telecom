@@ -1,0 +1,327 @@
+html
+
+{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: #264a6e;
+    padding: 0;
+    border: 0;
+    margin: -10px;
+    margin-left: 15% -10px;
+}
+
+    header div {
+        display: flex;
+        margin-left: 25%;
+        margin-right: auto;
+    }
+
+    header span {
+        padding-left: 10%;
+        padding-top: 1%;
+        padding-bottom: 10px;
+        color: white;
+    }
+
+
+.button1 {
+    padding: 2px 45px;
+    position: relative;
+    top: -5px;
+    margin-bottom: 3px;
+    border: none;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.button2 {
+    background-color: #f44336; /* Red */
+    border: none;
+    color: white;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 24px;
+    border-radius: 4px;
+}
+
+.button3 {
+    background-color: #f44336; /* Red */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 24px;
+    border-radius: 4px;
+    margin-left: 5%;
+    margin-top: 2%;
+    height: 40%;
+}
+
+.logo {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+
+/* permet de supprimer les marges et le remplissage de la barre nav*/
+ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    width: 15%; /*largeur de la page*/
+    background-color: #e5e7eb;
+    height: 100%; /* toute la page en hauteur */
+    position: fixed; /* barre fixe qui ne bougera pas pendant le scroll */
+    overflow: auto; /* si la barre de navigation a trop de contenu on peut scroller pour le voir */
+}
+
+li {
+    margin-left: 10%;
+}
+
+    li img {
+        margin-right: 10%;
+        width: 8%;
+    }
+
+    /*permet de mettre les cellules de la barre de navigation
+sous forme verticale*/
+    li a {
+        display: block;
+        color: #254b6a;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        padding: 8%;
+        text-decoration: none;
+        text-align: left;
+        text-overflow: !important;
+        font-family: "Quicksand", sans-serif;
+    }
+
+        /*change la couleur quand la souris passe dessus*/
+        li a:hover {
+            text-decoration: underline;
+        }
+
+.deco {
+    margin-top: 140%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page {
+    margin-left: 32%; /*position du texte par rapport à la page*/
+    margin-top: 4%; /*position du texte par rapport à la page*/
+    display:inline-flex;
+    text-align:left; /*texte centré sur la page*/
+}
+
+
+.b2 {
+    margin-left: 170%;
+    margin-right: 6%;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.b1 {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+select {
+    outline: 0;
+    background: white;
+    color: black;
+    font-size: 0.8em;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 3%;
+    text-align:center;
+}
+
+.bloc{
+    background: white;
+    margin-left: 32%;
+    width: 44%;
+    display: inline-flex;
+}
+
+.bloc1{
+    padding-top: 3%;
+    padding-left: 7%;
+}
+
+.bloc2 {
+    padding-top: 3%;
+    padding-left: 10%;
+}
+
+.options {
+    margin-left: 32%;
+    padding-left: 10%;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/
+    height: 14%;
+    background: white;
+    margin-bottom: 10% -10px;
+    margin-left: 14.6%;
+}
+
+    footer div {
+        display: block;
+        margin-left: 10%;
+    }
+
+    footer span {
+        padding-left: 7%;
+        margin-bottom: 7%;
+    }
+
+.buttoncircle {
+    border-radius: 50%;
+    margin-top: 3%;
+    background-color: #254b6a;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 10px 10px;
+    width: 5%;
+}
+
+.button4 {
+    border-radius: 8px;
+    padding: 0px 400px;
+    margin-left: -1%;
+    background-color: #254b6a;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 9px;
+}
+
+.button5 {
+    border-radius: 8px;
+    margin-left: -1%;
+    background-color: whitesmoke;
+    border: none;
+    color: #264a6e;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+    .button5:hover {
+        text-decoration: underline;
+    }
+
+.button6 {
+    background-color: #f44336; /* Red */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 24px;
+    border-radius: 4px;
+    margin-left: 5%;
+    margin-top: 2%;
+    height: 40%;
+}
+
+.container {
+    margin-top: 10%;
+}
+
+.my-buttons {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    background: #f74a53;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.my-buttons:hover {
+        background: #eb2f06;
+    }
+
+.button7 {
+    border-radius: 8px;
+    margin-left: -1%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    background-color: white;
+    border: none;
+    color: #aca9a9;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.button7:hover {
+      text-decoration: underline;
+}
+
+.start_of_line {
+    margin-left: -7%;
+    margin-top: 1%;
+    margin-right: 80%;
+}
+
+input[type="range"] + input[type="range"] {
+    margin-top: -2.1em;
+}
+
+input[type="range"] {
+    display: block;
+    height: 2em;
+    margin: 0;
+    pointer-events: none;
+}
+
+input[type="range" i] {
+    cursor: default;
+    padding: initial;
+    border: initial;
+    margin: 2px;
+}
